@@ -7,13 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GLASS: Guided Label-Aware Self-distillation for Semantic Segmentation</title>
 
-  <!-- Bulma / Fonts / Icons (CDN) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css?family=Google+Sans:400,500,700|Noto+Sans:400,500,700|Castoro:400,500,700" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
   <style>
     body {
@@ -42,7 +39,7 @@
 
     .figure-placeholder {
       width: 100%;
-      min-height: 320px;
+      min-height: 260px;
       border: 1.5px dashed #cfcfcf;
       border-radius: 12px;
       display: flex;
@@ -52,21 +49,7 @@
       background: #fcfcfc;
       text-align: center;
       padding: 1.5rem;
-    }
-
-    .paper-image {
-      width: 100%;
-      border-radius: 12px;
-      border: 1px solid #e5e5e5;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-    }
-
-    pre {
-      border-radius: 10px;
-      padding: 1rem;
-      overflow-x: auto;
-      background: #f7f7f7;
-      font-size: 0.95rem;
+      line-height: 1.7;
     }
 
     .footer-note {
@@ -80,6 +63,15 @@
 
     .link-buttons .button {
       margin: 0.3rem;
+      min-width: 140px;
+    }
+
+    pre {
+      border-radius: 10px;
+      padding: 1rem;
+      overflow-x: auto;
+      background: #f7f7f7;
+      font-size: 0.95rem;
     }
   </style>
 </head>
@@ -107,47 +99,11 @@
           </div>
 
           <div class="link-buttons">
-            <!-- Paper PDF -->
-            <a href="#" class="button is-dark is-rounded">
-              <span class="icon"><i class="fas fa-file-pdf"></i></span>
-              <span>A</span>
-            </a>
-
-            <!-- arXiv or DOI -->
-            <a href="#" class="button is-dark is-rounded">
-              <span class="icon"><i class="ai ai-arxiv"></i></span>
-              <span>B</span>
-            </a>
-
-            <!-- Optional project page button to same page or external -->
-            <!-- Remove this if unnecessary -->
+            <a href="#" class="button is-dark is-rounded">.</a>
+            <a href="#" class="button is-dark is-rounded">.</a>
           </div>
 
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section section-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column is-four-fifths has-text-centered">
-        <h2 class="title is-3">Overview</h2>
-
-        <!-- 나중에 대표 그림 넣을 위치 -->
-        <!-- 이미지 업로드 후 아래 placeholder를 img 태그로 바꾸면 됨 -->
-        <div class="figure-placeholder">
-          image
-        </div>
-
-        <!-- 예시:
-        <img src="./images/glass_teaser.png" alt="GLASS overview" class="paper-image">
-        -->
-
-        <p class="mt-4 has-text-justified">
-          GLASS is a guided label-aware self-distillation framework for semantic segmentation.
-        </p>
       </div>
     </div>
   </div>
@@ -158,12 +114,9 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
+        <div class="content has-text-centered">
           <p>
-            .
-          </p>
-          <p>
-            .
+            This project page is currently under preparation.
           </p>
         </div>
       </div>
@@ -171,89 +124,12 @@
   </div>
 </section>
 
-<section class="section section-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3 has-text-centered">Method</h2>
-
-        <div class="columns is-vcentered">
-          <div class="column is-7">
-            <!-- 나중에 아키텍처 그림 넣기 -->
-            <div class="figure-placeholder">
-              image
-            </div>
-
-            <!-- 예시:
-            <img src="./images/glass_architecture.png" alt="GLASS architecture" class="paper-image">
-            -->
-          </div>
-
-          <div class="column is-5">
-            <div class="content has-text-justified">
-              <p>
-                .
-              </p>
-              <p>
-                .
-              </p>
-              
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3 has-text-centered">Results</h2>
-
-        <div class="columns">
-          <div class="column">
-            <div class="figure-placeholder">
-              .
-            </div>
-          </div>
-          <div class="column">
-            <div class="figure-placeholder">
-              .
-            </div>
-          </div>
-        </div>
-
-        <div class="content has-text-justified mt-4">
-          <p>
-            .
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section section-light" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title is-3 has-text-centered">Citation</h2>
-
-  </div>
-</section>
 
 <footer class="footer">
-  <div class="container is-max-desktop">
-    <div class="content has-text-centered">
-      <p class="footer-note">
-        .
-      </p>
-    </div>
 
     <div class="content has-text-centered footer-note">
       <p>
-        The template is borrowed from
+        This project page is borrowed from 
         <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
       </p>
     </div>
